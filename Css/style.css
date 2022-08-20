@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+body {
+  height: 2000px;
+ 
+}
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+.navbar .nav-item {
+  padding: 5px 5px;
+}
+.navbar .nav-link {
+  font-size: 16px;
+  margin-left: 10px;
+  color:white
+}
+
+.nav-item :hover{
+  color: #00ff62;
+}
+
+.fa-bars {
+  color: #00ff62;
+  font-size: 30px;
+}
+
+.infogeneral{
+ background: #1d75de
+}
+
+.infoPlan{
+  background: #efefef
+ }
+ 
+ .infobeneficio{
+  background: white
+ }
+
+.footerseccion{
+  background: #000000
+}
+
+.btn-circle{
+
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 25px;
+  text-align: center; }
+
+  .btn-circleSocial{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: rgb(80, 79, 79);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:0px auto;
+    padding:3%;
+    font-size: 20px;
+/*     border-radius: 50px;
+    font-size: 40px;
+    text-align: center;  */
+  
+  }
+  
+
+  .btn-circle-planes{
+    background: #1d75de;
+    border: 3px solid #d0d0d0;;
+  }
+
+  .footertext :hover{
+    color: #00ff62;
+  }
+
+  .socials :hover{
+         
+    color: #00ff62;
+          
+        }
+
+  @media screen and (max-width: 26.9rem) {
+    .btn-circle{
+
+      height: 100%;
+      width: 100%;
+      padding: 1px;
+      margin-top: 5%;
+      
+    }
+    
+  }
